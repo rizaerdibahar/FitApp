@@ -132,8 +132,6 @@ class _s_change_emailState extends State<s_change_email> {
                   color: Colors.blueAccent,
                 ),
               ),
-
-
               ),
               Spacer(flex: 1),
 

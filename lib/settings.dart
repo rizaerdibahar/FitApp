@@ -79,6 +79,7 @@ class _settingsState extends State<settings> {
 
             children:<Widget>[
               const SizedBox(height:15,),
+
               Text(
 
                 "            Account",
