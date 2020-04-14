@@ -8,29 +8,30 @@ import 'package:ilkflutterapp/add.dart';
 import 'package:ilkflutterapp/exercises.dart';
 import 'package:ilkflutterapp/settings.dart';
 
-class shoulder extends StatefulWidget {
-@override
-_shoulderState createState() => _shoulderState();
+class arm extends StatefulWidget {
+  @override
+  _armState createState() => _armState();
 }
 
-class _shoulderState extends State<shoulder> {
+class _armState extends State<arm> {
   int _selectedIndex = 0;
   final List <Widget> _children = [
   ];
   List<String> litems=[
-    "     Dumbbell Shoulder Press",
-    "     Bent-Over",
-    "     Shoulder Shrugs",
-    "     Push-Ups",
-    "     Dumbbell Lateral Raise",
-    "     Shoulder Press",
+    "     Biceps Curl",
     "     Upraight Row",
-    "     Shoulder Press",
-    "     Shoulder Taps",
-    "     Arm Circles",
+    "     Triceps Extension",
+    "     Daimond Push-Up",
+    "     Triceps Kick Back",
+    "     Punches",
+    "     Side Plank",
+    "     Forearm Plank Reach Out",
+    "     Triceps Box Dip",
+    "     Arm Raises",
   ];
   _onSelected(int index) {
     setState(() {
+
       _selectedIndex = index;
     });
   }
@@ -61,7 +62,7 @@ class _shoulderState extends State<shoulder> {
         title: new Column(
           children: <Widget>[
             Text(
-              "                     Shoulder",
+              "                        Arm",
               textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(fontWeight: FontWeight.bold,
@@ -74,48 +75,48 @@ class _shoulderState extends State<shoulder> {
         ),
       ),
 
-    body: Column(
+      body: Column(
 
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.start,
 
-      children:<Widget>[
-    Container(
-    padding: EdgeInsets.all(8.0),
-      color: Color.fromRGBO(255, 255,255, 37),
-      height: 50.0,
-      child: Row(
-        children: <Widget>[
-          Flexible(
-            flex: 2,
-            child: TextFormField(
-              textAlign: TextAlign.left,
-              style: TextStyle(fontSize: 11.0),
-              decoration: InputDecoration(
-                  contentPadding: new EdgeInsets.symmetric(vertical: 0.0),
-                  border: InputBorder.none,
-                  prefixIcon: Padding(
-                    padding: EdgeInsets.all(0.0),
-                    child: Icon(
-                      Icons.search,
-                      color: Colors.grey,
-                    ), // icon is 48px widget.
+        children:<Widget>[
+          Container(
+            padding: EdgeInsets.all(8.0),
+            color: Color.fromRGBO(255, 255,255, 37),
+            height: 50.0,
+            child: Row(
+              children: <Widget>[
+                Flexible(
+                  flex: 2,
+                  child: TextFormField(
+                    textAlign: TextAlign.left,
+                    style: TextStyle(fontSize: 11.0),
+                    decoration: InputDecoration(
+                        contentPadding: new EdgeInsets.symmetric(vertical: 0.0),
+                        border: InputBorder.none,
+                        prefixIcon: Padding(
+                          padding: EdgeInsets.all(0.0),
+                          child: Icon(
+                            Icons.search,
+                            color: Colors.grey,
+                          ), // icon is 48px widget.
+                        ),
+                        hintText: 'Search and Find',
+                        hintStyle: TextStyle(fontSize:11.0)),
                   ),
-                  hintText: 'Search and Find',
-                  hintStyle: TextStyle(fontSize:11.0)),
+                ),
+              ],
             ),
           ),
-       ],
-     ),
-    ),
 
 
 
-        Expanded(
-          child: Container(
-            padding: EdgeInsets.only(left: 16, right:16),
-            color: Color(0XFFE5E5E5),
-            child: ListView.separated(
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.only(left: 16, right:16),
+              color: Color(0XFFE5E5E5),
+              child: ListView.separated(
                 itemBuilder: (context, index){
                   return Column(
                     mainAxisAlignment: MainAxisAlignment.start,
@@ -128,7 +129,7 @@ class _shoulderState extends State<shoulder> {
 
                             width: 90,
                             height:90,
-                            child: ClipOval(child: Image.asset("images/shoulder/${index+1}.PNG",fit: BoxFit.cover, ),
+                            child: ClipOval(child: Image.asset("images/arm/${index+1}.PNG",fit: BoxFit.cover, ),
                             ),
                           ),
                           Expanded(
@@ -163,16 +164,16 @@ class _shoulderState extends State<shoulder> {
                     ],
                   );
                 },
-                separatorBuilder: (context, index) => Divider(),
+                separatorBuilder: (context, index,) => Divider(),
                 itemCount: litems.length,
+              ),
             ),
-          ),
-        )
+          )
 
 
 
-      ],
-    ),
+        ],
+      ),
 
 
       bottomNavigationBar: Theme(
