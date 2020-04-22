@@ -130,6 +130,62 @@ flutter:
     - images/back/8.JPG
     - images/back/9.JPG
     - images/back/10.JPG
+    - images/Shoulder1/Seated_dumbbell_shoulder_press.jpg
+    - images/Shoulder1/Arm_circle.jpg
+    - images/Shoulder1/Bentover.jpg
+    - images/Shoulder1/Dumbbell_lateral_raise.jpg
+    - images/Shoulder1/Dumbbell_shoulder_press.jpg
+    - images/Shoulder1/Push_up.JPG
+    - images/Shoulder1/Shoulder_shrug.JPG
+    - images/Shoulder1/Upright_row.JPG
+    - images/Leg1/Calf_raise.JPG
+    - images/Leg1/Flutter_kicks.jpg
+    - images/Leg1/Front_kick.jpg
+    - images/Leg1/Jump.jpg
+    - images/Leg1/modified_scissors.jpg
+    - images/Leg1/Side_leg_raise.jpg
+    - images/Leg1/Squat.jpg
+    - images/Leg1/Walking_lunge.jpg
+    - images/Leg1/Wall_sit.jpg
+    - images/Leg1/Plank_leg_swing.jpg
+    - images/Chest1/Alt_Chest_Expansion.JPG
+    - images/Chest1/Arm_scissors.jpg
+    - images/Chest1/Chest_expansion.jpg
+    - images/Chest1/Chest_press.jpg
+    - images/Chest1/Dumbbell_bench_press.JPG
+    - images/Chest1/Overhead_stretch.jpg
+    - images/Chest1/Plyometric_pushup.jpg
+    - images/Chest1/Push_Up.jpg
+    - images/Chest1/Renegade_Row.JPG
+    - images/Chest1/Reverse_angels.JPG
+    - images/Back1/Back_extensions.jpg
+    - images/Back1/Back_rotations.jpg
+    - images/Back1/Cat_Cow.jpg
+    - images/Back1/Deadlifts.jpg
+    - images/Back1/Groin_stretches.jpg
+    - images/Back1/Knee_Roll.jpg
+    - images/Back1/Step_jacks.jpg
+    - images/Back1/Superman_streches.jpg
+    - images/Arm1/Biceps_curls.JPG
+    - images/Arm1/Diamond_Pushup.jpg
+    - images/Arm1/Dumbbell_front_raise.jpg
+    - images/Arm1/Front_arm_plank_reach_out.jpg
+    - images/Arm1/Overhead_tripcep.JPG
+    - images/Arm1/Punches.jpg
+    - images/Arm1/Side_plank.jpg
+    - images/Arm1/Tricep_kickback_exercise.jpg
+    - images/Arm1/Triceps_dip.jpg
+    - images/Arm1/Upright_row.JPG
+    - images/Belly1/Cross_Crunches.jpg
+    - images/Belly1/Crunches.jpg
+    - images/Belly1/High_Knees.jpg
+    - images/Belly1/Knee_to_elbow.jpg
+    - images/Belly1/Leg_raise.jpg
+    - images/Belly1/Marching_steps.jpg
+    - images/Belly1/Side_jack_knive.jpg
+    - images/Belly1/Side_plank_rotation.JPG
+    - images/Belly1/Sit_up.jpg
+    - images/Belly1/Sitting_twist.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
