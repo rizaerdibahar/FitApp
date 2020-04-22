@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:ilkflutterapp/shoulder.dart';
+import 'package:ilkflutterapp/back.dart';
 import 'package:flutter/material.dart';
 import 'package:ilkflutterapp/home.dart';
 import 'package:ilkflutterapp/add.dart';
@@ -43,7 +43,7 @@ class _back_10State extends State<back_10> {
           children: <Widget>[
             new IconButton(icon: Image.asset('images/back_icon.png',),
               onPressed: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> shoulder()),
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> back()),
                 ),
               },
               color: Colors.transparent,)

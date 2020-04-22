@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:ilkflutterapp/sixpack.dart';
+import 'package:ilkflutterapp/shoulder.dart';
 import 'package:flutter/material.dart';
 import 'package:ilkflutterapp/home.dart';
 import 'package:ilkflutterapp/add.dart';
@@ -10,12 +10,12 @@ import 'package:ilkflutterapp/more.dart';
 
 
 
-class belly_1 extends StatefulWidget {
+class shoulder_7 extends StatefulWidget {
   @override
-  _belly_1State createState() => _belly_1State();
+  _shoulder_7State createState() => _shoulder_7State();
 }
 
-class _belly_1State extends State<belly_1> {
+class _shoulder_7State extends State<shoulder_7> {
 
   int _selectedIndex = 0;
   final List <Widget> _children= [
@@ -43,7 +43,7 @@ class _belly_1State extends State<belly_1> {
           children: <Widget>[
             new IconButton(icon: Image.asset('images/back_icon.png',),
               onPressed: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> sixpack()),
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> shoulder()),
                 ),
               },
               color: Colors.transparent,)
@@ -52,7 +52,7 @@ class _belly_1State extends State<belly_1> {
         title: new Column(
           children: <Widget>[
             Text(
-              "   Cross Crunches",
+              "   Upright Row",
               textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(fontWeight: FontWeight.bold,
@@ -84,13 +84,13 @@ class _belly_1State extends State<belly_1> {
 
             children: <Widget>[
               Image(
-                image: AssetImage('images/Belly1/Cross_Crunches.jpg',),
+                image: AssetImage('images/Shoulder/Upright_row.JPG',),
                 //width: 50,
                 //height: 50,
               ),
               Spacer(flex: 2),
               Text(
-                "A bit hard to do but a well rewarding exercise to give you some abs.",
+                "To train your shoulders simply pull back dumbbells while standing and you are good to go.",
                 textAlign: TextAlign.left,
                 //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
@@ -103,7 +103,7 @@ class _belly_1State extends State<belly_1> {
 
 
               Text(
-                "   How to do it: Lie down facing upwardsç Put your hand side of your head or under it. Twist your knees and pull your knees to you. This is your starting position. Twist your upper body to left side , return to starting position and twist your body to right side.",
+                "   How to do it: Stand whiel your feet apart from each other at hip-width. Rest your arms while holding dumbbells, lift dumbbells until chest level and slowly lower back to starting position. ",
                 textAlign: TextAlign.left,
                 //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
@@ -114,9 +114,9 @@ class _belly_1State extends State<belly_1> {
               ),
               Spacer(flex: 1),
               Text(
-                "This exercise dont have any requirements.",
+                "This exercise requires to have dumbbells.",
                 textAlign: TextAlign.left,
-               // overflow: TextOverflow.ellipsis,
+                //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
                   fontSize: 14,
                   fontFamily: 'Rajdhani',

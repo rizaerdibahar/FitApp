@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:ilkflutterapp/sixpack.dart';
+import 'package:ilkflutterapp/shoulder.dart';
 import 'package:flutter/material.dart';
 import 'package:ilkflutterapp/home.dart';
 import 'package:ilkflutterapp/add.dart';
@@ -10,12 +10,12 @@ import 'package:ilkflutterapp/more.dart';
 
 
 
-class belly_1 extends StatefulWidget {
+class shoulder_2 extends StatefulWidget {
   @override
-  _belly_1State createState() => _belly_1State();
+  _shoulder_2State createState() => _shoulder_2State();
 }
 
-class _belly_1State extends State<belly_1> {
+class _shoulder_2State extends State<shoulder_2> {
 
   int _selectedIndex = 0;
   final List <Widget> _children= [
@@ -43,7 +43,7 @@ class _belly_1State extends State<belly_1> {
           children: <Widget>[
             new IconButton(icon: Image.asset('images/back_icon.png',),
               onPressed: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> sixpack()),
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> shoulder()),
                 ),
               },
               color: Colors.transparent,)
@@ -52,7 +52,7 @@ class _belly_1State extends State<belly_1> {
         title: new Column(
           children: <Widget>[
             Text(
-              "   Cross Crunches",
+              "   Bent-Over Lateral Raise",
               textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(fontWeight: FontWeight.bold,
@@ -84,13 +84,13 @@ class _belly_1State extends State<belly_1> {
 
             children: <Widget>[
               Image(
-                image: AssetImage('images/Belly1/Cross_Crunches.jpg',),
+                image: AssetImage('images/Shoulder/Bentover.jpg',),
                 //width: 50,
                 //height: 50,
               ),
               Spacer(flex: 2),
               Text(
-                "A bit hard to do but a well rewarding exercise to give you some abs.",
+                "In this exercise user can either stand or be seated. Training with this exercise meant to train your shoulder muscles.",
                 textAlign: TextAlign.left,
                 //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
@@ -103,7 +103,7 @@ class _belly_1State extends State<belly_1> {
 
 
               Text(
-                "   How to do it: Lie down facing upwardsç Put your hand side of your head or under it. Twist your knees and pull your knees to you. This is your starting position. Twist your upper body to left side , return to starting position and twist your body to right side.",
+                "   How to do it: With dumbbells on their grasp users should open their arms like butterfly and extend them paralel with the ground while their eyes fixed on a fixed point.  ",
                 textAlign: TextAlign.left,
                 //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
@@ -114,9 +114,9 @@ class _belly_1State extends State<belly_1> {
               ),
               Spacer(flex: 1),
               Text(
-                "This exercise dont have any requirements.",
+                "This exercise requires dumbbells.",
                 textAlign: TextAlign.left,
-               // overflow: TextOverflow.ellipsis,
+                //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
                   fontSize: 14,
                   fontFamily: 'Rajdhani',

@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:ilkflutterapp/shoulder.dart';
+import 'package:ilkflutterapp/leg.dart';
 import 'package:flutter/material.dart';
 import 'package:ilkflutterapp/home.dart';
 import 'package:ilkflutterapp/add.dart';
@@ -43,7 +43,7 @@ class _leg_4State extends State<leg_4> {
           children: <Widget>[
             new IconButton(icon: Image.asset('images/back_icon.png',),
               onPressed: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> shoulder()),
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> leg()),
                 ),
               },
               color: Colors.transparent,)

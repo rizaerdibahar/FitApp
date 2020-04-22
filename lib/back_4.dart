@@ -6,6 +6,7 @@ import 'package:ilkflutterapp/add.dart';
 import 'package:ilkflutterapp/exercises.dart';
 import 'package:ilkflutterapp/settings.dart';
 import 'package:ilkflutterapp/more.dart';
+import 'package:ilkflutterapp/back.dart';
 
 
 
@@ -43,7 +44,7 @@ class _back_4State extends State<back_4> {
           children: <Widget>[
             new IconButton(icon: Image.asset('images/back_icon.png',),
               onPressed: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> shoulder()),
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> back()),
                 ),
               },
               color: Colors.transparent,)

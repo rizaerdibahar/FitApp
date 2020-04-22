@@ -6,6 +6,7 @@ import 'package:ilkflutterapp/add.dart';
 import 'package:ilkflutterapp/exercises.dart';
 import 'package:ilkflutterapp/settings.dart';
 import 'package:ilkflutterapp/more.dart';
+import 'package:ilkflutterapp/arm.dart';
 
 
 
@@ -43,7 +44,7 @@ class _arm_3State extends State<arm_3> {
           children: <Widget>[
             new IconButton(icon: Image.asset('images/back_icon.png',),
               onPressed: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> shoulder()),
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> arm()),
                 ),
               },
               color: Colors.transparent,)

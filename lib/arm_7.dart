@@ -6,7 +6,7 @@ import 'package:ilkflutterapp/add.dart';
 import 'package:ilkflutterapp/exercises.dart';
 import 'package:ilkflutterapp/settings.dart';
 import 'package:ilkflutterapp/more.dart';
-
+import 'package:ilkflutterapp/arm.dart';
 
 
 
@@ -169,7 +169,7 @@ class _arm_7State extends State<arm_7> {
             BottomNavigationBarItem(
               icon: IconButton(icon: Image.asset('images/plus.png',width:50,height:50,),
                 onPressed: () => {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> add()),
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> arm()),
 
                   ),
                 },

@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:ilkflutterapp/shoulder.dart';
+import 'package:ilkflutterapp/chest.dart';
 import 'package:flutter/material.dart';
 import 'package:ilkflutterapp/home.dart';
 import 'package:ilkflutterapp/add.dart';
@@ -43,7 +43,7 @@ class _chest_9State extends State<chest_9> {
           children: <Widget>[
             new IconButton(icon: Image.asset('images/back_icon.png',),
               onPressed: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> shoulder()),
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> chest()),
                 ),
               },
               color: Colors.transparent,)

@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:ilkflutterapp/sixpack.dart';
+import 'package:ilkflutterapp/shoulder.dart';
 import 'package:flutter/material.dart';
 import 'package:ilkflutterapp/home.dart';
 import 'package:ilkflutterapp/add.dart';
@@ -10,12 +10,12 @@ import 'package:ilkflutterapp/more.dart';
 
 
 
-class belly_1 extends StatefulWidget {
+class shoulder_4 extends StatefulWidget {
   @override
-  _belly_1State createState() => _belly_1State();
+  _shoulder_4State createState() => _shoulder_4State();
 }
 
-class _belly_1State extends State<belly_1> {
+class _shoulder_4State extends State<shoulder_4> {
 
   int _selectedIndex = 0;
   final List <Widget> _children= [
@@ -43,7 +43,7 @@ class _belly_1State extends State<belly_1> {
           children: <Widget>[
             new IconButton(icon: Image.asset('images/back_icon.png',),
               onPressed: () => {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> sixpack()),
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> shoulder()),
                 ),
               },
               color: Colors.transparent,)
@@ -52,7 +52,7 @@ class _belly_1State extends State<belly_1> {
         title: new Column(
           children: <Widget>[
             Text(
-              "   Cross Crunches",
+              "   Push-Ups",
               textAlign: TextAlign.center,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(fontWeight: FontWeight.bold,
@@ -84,13 +84,13 @@ class _belly_1State extends State<belly_1> {
 
             children: <Widget>[
               Image(
-                image: AssetImage('images/Belly1/Cross_Crunches.jpg',),
+                image: AssetImage('images/Shoulder/Push_up.JPG',),
                 //width: 50,
                 //height: 50,
               ),
               Spacer(flex: 2),
               Text(
-                "A bit hard to do but a well rewarding exercise to give you some abs.",
+                "This balanced exercise will train your body along with your shoulders. One of the classic exercises it is meant for everybody.",
                 textAlign: TextAlign.left,
                 //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
@@ -103,7 +103,7 @@ class _belly_1State extends State<belly_1> {
 
 
               Text(
-                "   How to do it: Lie down facing upwardsç Put your hand side of your head or under it. Twist your knees and pull your knees to you. This is your starting position. Twist your upper body to left side , return to starting position and twist your body to right side.",
+                "   How to do it: Get down on you hands while facing the flor, push yourself towards floor and press up for starting position. ",
                 textAlign: TextAlign.left,
                 //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
@@ -116,7 +116,7 @@ class _belly_1State extends State<belly_1> {
               Text(
                 "This exercise dont have any requirements.",
                 textAlign: TextAlign.left,
-               // overflow: TextOverflow.ellipsis,
+                //overflow: TextOverflow.ellipsis,
                 style: TextStyle(fontWeight: FontWeight.bold,
                   fontSize: 14,
                   fontFamily: 'Rajdhani',

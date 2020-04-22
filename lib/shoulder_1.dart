@@ -84,7 +84,7 @@ class _shoulder_1State extends State<shoulder_1> {
 
             children: <Widget>[
               Image(
-                image: AssetImage('images/shoulder/shoulder1.jpg',),
+                image: AssetImage('images/Shoulder/Seated_dumbbell_shoulder_press.jpg',),
                 //width: 50,
                 //height: 50,
               ),
