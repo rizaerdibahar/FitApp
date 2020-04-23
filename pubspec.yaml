@@ -186,6 +186,17 @@ flutter:
     - images/Belly1/Side_plank_rotation.JPG
     - images/Belly1/Sit_up.jpg
     - images/Belly1/Sitting_twist.jpg
+    - images/Achievements/1.png
+    - images/Achievements/2.png
+    - images/Achievements/3.png
+    - images/Achievements/4.png
+    - images/Achievements/5.png
+    - images/Achievements/6.png
+    - images/Achievements/7.png
+    - images/Achievements/8.png
+    - images/Achievements/9.png
+    - images/Achievements/10.png
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
